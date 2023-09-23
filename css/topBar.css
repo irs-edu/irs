@@ -1,0 +1,56 @@
+
+.top-bar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5px 20px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 18px;
+
+    font-size: 18px;
+
+}
+
+.left-section a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 19px;
+    }
+
+.top-bar a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+.description {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333; /* لون خلفية الشريط السفلي */
+    color: #fff; /* لون النص في الشريط السفلي */
+    text-align: center;
+    padding: 10px 0;
+    opacity: 0.9;
+
+}

@@ -1,0 +1,58 @@
+/* Style the news container */
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style each news block */
+.news-block {
+    flex: 1;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Style the FAQ container */
+.faq-container {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Style FAQ items */
+.faq-item {
+    margin-bottom: 20px;
+}
+
+/* Style FAQ questions */
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Style FAQ answers */
+.faq-answer {
+    display: none;
+}
+
+/* Show FAQ answers when active */
+.faq-answer.show {
+    display: block;
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    /* Stack news blocks vertically */
+    .news-container {
+        flex-direction: column;
+    }
+
+    /* Reset margin for FAQ items */
+    .faq-item {
+        margin-bottom: 10px;
+    }
+}

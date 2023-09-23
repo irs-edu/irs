@@ -1,0 +1,66 @@
+/* Reset body styles and set a background color */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #004535; /* Light green color */
+}
+
+/* Adjust the container width for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+    /* You can adjust other styles as needed for smaller screens here */
+}
+
+/* Styles for the container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(14, 167, 144);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0.89;
+}
+
+/* Styles for the header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styles for the .wallp background */
+.wallp {
+    background-image: url("../media/school.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* You can adjust other background styles as needed */
+}
+
+/* Styles for the .heaWall background */
+.heaWall {
+    background-image: url("../media/wall.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* You can adjust other background styles as needed */
+}
+
+/* Styles for heading (h1) */
+h1 {
+    font-size: 28px;
+    color: #0dcaf0; /* Blue color */
+}
+
+/* Styles for paragraphs (p) */
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    /* You can add additional styles for smaller screens here */
+}

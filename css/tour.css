@@ -1,0 +1,44 @@
+/* Default styles for larger screens */
+.rec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    overflow: auto; /* Enable scrolling for small screens */
+}
+
+.rectangle {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    height: 490px;
+}
+
+.rectangle img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+}
+
+.rectangle p {
+    font-size: 16px;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 600px) {
+    .rec {
+        height: auto; /* Let the content determine the height */
+        flex-direction: column; /* Stack children vertically */
+        padding: 10px; /* Reduce padding for spacing */
+    }
+
+    .rectangle {
+        width: 100%; /* Use the full width of the screen */
+        height: auto; /* Let the content determine the height */
+        margin: 10px 0; /* Reduce vertical margin for spacing */
+    }
+}
