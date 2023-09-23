@@ -32,7 +32,7 @@ header {
 
 /* Styles for the .wallp background */
 .wallp {
-    background-image: url("../media/school.jpeg");
+    background-image: url("media/school.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,7 +41,7 @@ header {
 
 /* Styles for the .heaWall background */
 .heaWall {
-    background-image: url("../media/wall.jpeg");
+    background-image: url("media/wall.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
