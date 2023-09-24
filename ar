@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثانوية ابن الرومي</title>
+
+    <link rel="icon" type="images/x-icon" href="media/logo.png" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/topBar.css">
+    <link rel="stylesheet" href="css/tour.css">
+    <link rel="stylesheet" href="css/header.css">
+
+</head>
+<body>
+    <div class="top-bar">
+        <div class="left-section">
+            <a href="contact.html">تواصل معنا</a>
+        </div>
+
+        <div class="right-section">
+            <a href="index.html">English</a>
+        </div>
+    </div>
+
+    <header class = "heaWall" >
+        <div class= "container">
+            <h1>ثانوية ابن الرومي</h1>
+            <p> مدرسة ابن الرومي الثانوية انشأت عام 2019 في المنطقه الشرقية حي اجيال في غرب الظهران</p>
+            <p>المدرسة بنيت من قبل ارامكو وتشغل بواسطة وزارة التعليم  </p>
+            <p style="margin-bottom: 90px;">المدرسة تابعه لمكتب تعليم غرب الدمام</p>
+          
+            
+            <p>كلمة مدير المدرسة الاستاذ مسفر الغامدي</p>
+            <div class="mdeer">
+                <div class="image">
+                    <img style="transform: scaleX(-1);" src="media/mdeer.jpeg">
+                </div>
+                <div class="text">
+                    <br>
+                    "<p>بدايه تجربه واحد اثنين ثلاثه تجربه واحد اثنين ثلاثه تجربه واحد اثنين ثلاثه تجربه واحد اثنين ثلاثه  تجربه واحد اثنين ثلاثه نهايه</p>"
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="news-container">
+        <div class="news-block"> 
+            <a class="twitter-timeline" data-width="380" data-height="275" data-theme="dark" href="https://twitter.com/MOE_EPR_16_0055?ref_src=twsrc%5Etfw">Tweets by MOE_EPR_16_0055</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>      
+        </div>
+    
+        <div class="news-block">الاسئلة الاكثر تكرارا
+    
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">س: هل يمكنني تسجيل ابني؟</div>
+                    <div class="faq-answer">ج: اجابه</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question"> س: كيف يمكنني التواصل مع المدرسة </div>
+                    <div class="faq-answer">ج: عن طريق تواصل معنا اعلى الصفحه او زياره المدرسه</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">س: كيف يمكنني معرفه احدث الاخبار عن المدرسة</div>
+                    <div class="faq-answer">ج: عن طريق متابعتنا في اكس او مايعرف الان بتويتر</div>
+    
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="news-block"> <br> <br>المزيد عن المدرسة
+            <br>
+            <a href="https://drive.google.com/file/d/1gwuojQ0QbZMwYr6d9tN6UXX-LVjiciae/view?usp=sharing">جوله سريعه في المدرسة</a>
+        </div>
+    </div>
+    
+    <!-- school facilities -->
+    <div class = "wallp">
+        <div style = "padding: 5vh;">   
+            <h2 class="container" style = "text-align: center;">مرافق المدرسة </h2>     
+            <div class = "rec">
+                <div class="rectangle">
+                    <img src="media/class.jpeg" alt="صورة 1">
+                    <p>الفصول <br> المدرسة لديها فصول مزودة بسبوره ذكية لتقديم اكبر قدر من الفائده </p>
+                </div>
+                <div class="rectangle">
+                    <img src="media/exercise.jpeg" alt="صورة 2">
+                    <p> الصاله الرياضية <br> العقل السليم في الجسم السليم يمكن للطلاب ممارسة الرياضه باشراف معلم</p>
+                </div>
+                <div class="rectangle">
+                    <img src="media/stChill.jpeg" alt="صورة 3">
+                    <p> المقصف <br> المقصف مزود بكراسي وطاولات ............ </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.classList.toggle('show');
+            });
+        });
+    </script>
+
+    <div class="footer">
+        &copy; 2023 حقوق النشر - فريق التطوير في ثانوية ابن الرومي  
+    </div>
+</body>
+</html>
