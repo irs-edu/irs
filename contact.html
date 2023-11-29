@@ -23,12 +23,12 @@
             Email.send({
                 SecureToken : "6e1745d4-2d21-4d9b-94a0-39832ebf9c0e",
                 To : 'irschool01@gmail.com',
-                From : 'irschool01@gmail.com',
+                From : 'contact@ibnalroumi.com',
                 Subject : "New email from contact us",
-                Body : "Name" + document.getElementById("name").value
+                Body : "Name: " + document.getElementById("name").value
                 + "<br> Email: " + document.getElementById("email").value
                 + "<br> phone number: "+ document.getElementById("phone").value
-                + "<br> phone number: "+ document.getElementById("message").value
+                + "<br> message: "+ document.getElementById("message").value
              }).then(
              message => alert("Message sent succesfully")
              );
